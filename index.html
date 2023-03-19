@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fi">
+    <head>
+        <meta charset="UTF-8">
+        <title>Tulosta lukuja</title>
+        <script src="JS/lukujentulostus.js"></script>
+        <link rel="stylesheet" href="/CSS/tyylit.css">
+
+
+    </head>
+    <body>
+        <h1>Lukuja</h1>
+        <form id="oma">
+            Ekaluku<br>
+            <input type="number" id="luku1"><br>
+            Tokaluku<br>
+            <input type="number" id="luku2"><br>
+            <button type="button" onclick="tulosta(oma.luku1.value, oma.luku2.value)">
+            Tulosta luvut
+            </button>
+        </form>
+        <div id="results"></div>
+    </body>
+
+</html>
